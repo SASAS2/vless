@@ -1,3 +1,5 @@
+**Notice:Keep a backup for myself**
+**Author: jinqians**
 # 🚀 VLESS Reality 一键管理脚本
 
 一个 **基于 Xray + VLESS Reality 的一键安装与管理脚本**，支持安装、更新、卸载、配置查看，并提供 `vless` 全局命令进行长期管理。
