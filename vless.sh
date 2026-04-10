@@ -4,9 +4,10 @@ set -e
 # =========================================================
 # VLESS Reality 一键菜单脚本（终极完整版）
 # Author: jinqians
+# Backup:SASAS2(做个备份防止找不到咯)
 # =========================================================
 
-SCRIPT_REMOTE_URL="https://raw.githubusercontent.com/jinqians/vless/refs/heads/main/vless.sh"
+SCRIPT_REMOTE_URL="https://raw.githubusercontent.com/SASAS2/vless/refs/heads/main/vless.sh"
 
 CONFIG_DIR="/usr/local/etc/xray"
 CONFIG_FILE="$CONFIG_DIR/config.json"
@@ -101,7 +102,7 @@ if [ "$(id -u)" != "0" ]; then
   exit 1
 fi
 TMP=$(mktemp)
-curl -fsSL https://raw.githubusercontent.com/jinqians/vless/refs/heads/main/vless.sh -o "$TMP"
+curl -fsSL https://raw.githubusercontent.com/SASAS2/vless/refs/heads/main/vless.sh -o "$TMP"
 bash "$TMP"
 rm -f "$TMP"
 EOFSCRIPT
