@@ -55,7 +55,7 @@
 ## 🚀 一键安装
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/jinqians/vless/main/vless.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/SASAS2/vless/main/vless.sh)
 ```
 
 > 安装完成后，脚本会 **自动退出**，并提示你使用 `vless` 进行后续管理。
